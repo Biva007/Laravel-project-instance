@@ -1,11 +1,9 @@
-Here's a well-structured **README.md** file for your Laravel project. You can copy and paste it directly into your project.
-
 ````markdown
-# Project Management System 🏗️
+Project Management System 🏗️
 
 A Laravel-based project management system that allows users to add project deadlines, edit, delete tasks, and manage tasks efficiently.
 
-## 🚀 Features
+🚀 Features
 
 -   🗂️ Add project deadlines
 -   ✏️ Edit & delete tasks

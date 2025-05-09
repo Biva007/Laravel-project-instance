@@ -1,24 +1,23 @@
-````markdown
-Project Management System 🏗️
+# Project Management System 🏗️
 
 A Laravel-based project management system that allows users to add project deadlines, edit, delete tasks, and manage tasks efficiently.
 
-🚀 Features
+## 🚀 Features
 
--   🗂️ Add project deadlines
--   ✏️ Edit & delete tasks
--   📋 View all tasks
--   ✅ View only "My Tasks"
--   🔒 Authentication & authorization (if applicable)
+- 🗂️ Add project deadlines
+- ✏️ Edit & delete tasks
+- 📋 View all tasks
+- ✅ View only "My Tasks"
+- 🔒 Authentication & authorization (if applicable)
 
 ## 🛠️ Installation
 
-1. Clone the repository
+1. **Clone the repository**
+
     ```sh
-    https://github.com/Wcoder547/Laravel-ProjectManagment.git
-    cd project-management
+    git clone https://github.com/Wcoder547/Laravel-ProjectManagment.git
+    cd Laravel-ProjectManagment
     ```
-````
 
 2. **Install dependencies**
 
@@ -48,6 +47,7 @@ A Laravel-based project management system that allows users to add project deadl
     ```
 
 6. **Run the development server**
+
     ```sh
     php artisan serve
     npm run dev
@@ -55,16 +55,16 @@ A Laravel-based project management system that allows users to add project deadl
 
 ## 🔧 Usage
 
--   **Login/Register** to manage tasks.
--   **Create, edit, and delete tasks** for projects.
--   **Filter tasks** by "All Tasks" or "My Tasks".
+- **Login/Register** to manage tasks.
+- **Create, edit, and delete tasks** for projects.
+- **Filter tasks** by "All Tasks" or "My Tasks".
 
 ## 🏗️ Tech Stack
 
--   **Backend:** Laravel
--   **Frontend:** Blade / Inertia.js with React
--   **Database:** MySQL / PostgreSQL
--   **Version Control:** Git & GitHub
+- **Backend:** Laravel
+- **Frontend:** Blade / Inertia.js with React
+- **Database:** MySQL / PostgreSQL
+- **Version Control:** Git & GitHub
 
 ## 📜 License
 
@@ -72,13 +72,4 @@ This project is licensed under the MIT License.
 
 ## 👨‍💻 Author
 
--   [Waseem Akram](https://github.com/Wcoder547)
-
----
-
-Feel free to modify this according to your project's specifics! 🚀🔥
-
-```
-
-Let me know if you need any changes! 😃
-```
+- [Waseem Akram](https://github.com/Wcoder547)

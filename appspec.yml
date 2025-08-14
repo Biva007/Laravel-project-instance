@@ -1,0 +1,17 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /var/www/html
+    overwrite: yes
+
+hooks:
+  BeforeInstall:
+    - location: scripts/clear_cache.sh
+      runas: ec2-user
+  AfterInstall:
+    - location: scripts/composer_install.sh
+      runas: ec2-user
+  ApplicationStart:
+    - location: scripts/restart_server.sh
+      runas: root
